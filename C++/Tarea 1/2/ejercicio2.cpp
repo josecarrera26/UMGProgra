@@ -7,10 +7,10 @@ int main() {
 	system("color 9");
 	int num1;
 	float raiz;
-	printf("Por favor ingrese el numero entero calcular su raiz \n");
-	cin>>num1;
-	raiz = sqrt(num1);
-	system("color 2");
-	cout<<"La raiz del numeros es: \n"<<raiz;
+	printf("Por favor ingrese el numero entero calcular su raiz \n"); /* Mostrar mensaje en pantalla*/
+	cin>>num1;/*guardar en variable el input del usuario*/
+	raiz = sqrt(num1);/*guardar en variable y operar*/
+	system("color 2");/* Cambio de color del texto de la consola*/
+	cout<<"La raiz del numeros es: \n"<<raiz;/* Mostrar mensaje en pantalla*/
 	return 0;
 }
